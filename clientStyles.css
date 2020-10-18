@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+a, img, span, h3, p, i, li, input, button, span, .btn{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+header {
+    background-color: #282828;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.header-div {
+    padding: 5px;
+    vertical-align: middle;
+
+}
+
+.header-div div {
+    display: inline-block;
+}
+.hint {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-left: 10px;
+
+}
+
+input {
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #282828;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+
+}
+
+#submit {
+	cursor: pointer;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+#submit:hover {
+    border: 2px solid #de5749;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid #de5749;
+}
+
+#device-section {
+    visibility: visible;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: left;
+    margin: 11px;
+    background-color: #de5749;
+    border-radius: 5px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+
+
+}
+
+#device-section div{
+    display: inline-block;
+}
+
+
+#deviceName {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+#deviceImage {
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    width: 24px;
+    height: 24px;
+}
